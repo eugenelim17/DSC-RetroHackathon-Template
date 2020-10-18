@@ -284,7 +284,7 @@ class Healing:
 class App:
     def __init__(self):
         self.shield_enabled = False
-        pyxel.init(120, 160, caption="Pyxel Shooter")
+        pyxel.init(120, 160, caption="Hand Sanitiser Shooter")
         pyxel.image(0).set(
             0,
             0,
@@ -426,7 +426,6 @@ class App:
 
                 pyxel.play(2, 2)
 
-                self.score += 30
                 self.player.level = int((self.score / 100))
 
         for mask in mask_list:
@@ -438,7 +437,7 @@ class App:
             ):
                 mask.alive = False
                 pyxel.play(2, 2)
-
+                self.score += 30
                 self.shield_enabled = True
                 self.player.shield_enabled = True
 
