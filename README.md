@@ -19,3 +19,6 @@ Also look out for the dropped items for they are useful in the game.
 - Meds: increases your HP by 20%.
 - Face Mask: provides shield for a period of time and earns you 30 points. This item is more 
 difficult to collect compared to meds, but the more you collected it, the closer you are to victory.
+Every time you score 100 points, your level will be increased by one. 
+
+*To win this game, you need to finish level 9.* 
